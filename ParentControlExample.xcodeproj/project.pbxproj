@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F4674FDD22D1E116004B8520 /* TimerNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4674FDC22D1E116004B8520 /* TimerNode.swift */; };
+		F4674FE322D262B2004B8520 /* ButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4674FE022D262B2004B8520 /* ButtonNode.swift */; };
+		F4674FE422D262B2004B8520 /* ParentGateNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4674FE122D262B2004B8520 /* ParentGateNode.swift */; };
+		F4674FE522D262B2004B8520 /* TimerNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4674FE222D262B2004B8520 /* TimerNode.swift */; };
 		F48B30EA22CCC54900646B54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B30E922CCC54900646B54 /* AppDelegate.swift */; };
 		F48B30F022CCC54900646B54 /* ParentGateControlScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B30EF22CCC54900646B54 /* ParentGateControlScene.swift */; };
 		F48B30F222CCC54900646B54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B30F122CCC54900646B54 /* ViewController.swift */; };
 		F48B30F722CCC54D00646B54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F48B30F622CCC54D00646B54 /* Assets.xcassets */; };
 		F48B30FA22CCC54D00646B54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48B30F822CCC54D00646B54 /* LaunchScreen.storyboard */; };
 		F48B310422CCC6C500646B54 /* UIScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B310322CCC6C500646B54 /* UIScene.swift */; };
-		F48B310E22CD956900646B54 /* ParentGateNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B310C22CD956900646B54 /* ParentGateNode.swift */; };
-		F48B310F22CD956900646B54 /* ButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B310D22CD956900646B54 /* ButtonNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F4674FDC22D1E116004B8520 /* TimerNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimerNode.swift; path = ../../../_Classes/SpriteKitUI/TimerNode.swift; sourceTree = "<group>"; };
+		F4674FE022D262B2004B8520 /* ButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonNode.swift; sourceTree = "<group>"; };
+		F4674FE122D262B2004B8520 /* ParentGateNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentGateNode.swift; sourceTree = "<group>"; };
+		F4674FE222D262B2004B8520 /* TimerNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerNode.swift; sourceTree = "<group>"; };
 		F48B30E622CCC54900646B54 /* ParentControlExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParentControlExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F48B30E922CCC54900646B54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F48B30EF22CCC54900646B54 /* ParentGateControlScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentGateControlScene.swift; sourceTree = "<group>"; };
@@ -28,8 +30,6 @@
 		F48B30F922CCC54D00646B54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F48B30FB22CCC54D00646B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F48B310322CCC6C500646B54 /* UIScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScene.swift; sourceTree = "<group>"; };
-		F48B310C22CD956900646B54 /* ParentGateNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParentGateNode.swift; path = ../../../_Classes/SpriteKitUI/ParentGateNode.swift; sourceTree = "<group>"; };
-		F48B310D22CD956900646B54 /* ButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ButtonNode.swift; path = ../../../_Classes/SpriteKitUI/ButtonNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,9 +93,9 @@
 		F48B310522CCCD5E00646B54 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F4674FDC22D1E116004B8520 /* TimerNode.swift */,
-				F48B310D22CD956900646B54 /* ButtonNode.swift */,
-				F48B310C22CD956900646B54 /* ParentGateNode.swift */,
+				F4674FE022D262B2004B8520 /* ButtonNode.swift */,
+				F4674FE122D262B2004B8520 /* ParentGateNode.swift */,
+				F4674FE222D262B2004B8520 /* TimerNode.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -170,13 +170,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F48B310E22CD956900646B54 /* ParentGateNode.swift in Sources */,
 				F48B30F022CCC54900646B54 /* ParentGateControlScene.swift in Sources */,
-				F4674FDD22D1E116004B8520 /* TimerNode.swift in Sources */,
 				F48B30F222CCC54900646B54 /* ViewController.swift in Sources */,
+				F4674FE522D262B2004B8520 /* TimerNode.swift in Sources */,
+				F4674FE422D262B2004B8520 /* ParentGateNode.swift in Sources */,
 				F48B30EA22CCC54900646B54 /* AppDelegate.swift in Sources */,
 				F48B310422CCC6C500646B54 /* UIScene.swift in Sources */,
-				F48B310F22CD956900646B54 /* ButtonNode.swift in Sources */,
+				F4674FE322D262B2004B8520 /* ButtonNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
